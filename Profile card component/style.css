@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #19a1ad;
+  width: 100%;
+  min-height: 100dvh;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-container {
+  width: 100%;
+  min-height: 100vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 300px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-image-wrapper {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 200px;
+}
+
+.img-card {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.victor-img {
+  border-radius: 55px;
+  border: 5px solid white;
+  top: 50%;
+  left: 110px;
+  position: absolute;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid #d8d8db;
+  margin: 12px 0;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.card-content-subtitle-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: medium;
+}
+
+.card-content-number {
+  color: gray;
+}
+
+h5 {
+  margin: -23px -230px 0px 0px;
+  font-size: 15px;
+  color: #8d8e92;
+}
+
+h3 {
+  font-size: 13px;
+  color: #8d8e92;
+}
+
+.stats {
+  width: 100%;
+  height: auto;
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  padding: 0;
+  z-index: 100;
+}
+
+.stat-item h2,
+.stat-item h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.stat-item h4 {
+  font-size: 10px;
+  color: #8d8e92;
+}
+
+.bg-wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.top-svg {
+  top: -200px;
+  left: -200px;
+  position: absolute;
+}
+
+.bottom-svg {
+  bottom: -200px;
+  right: -200px;
+  position: absolute;
+}
